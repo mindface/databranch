@@ -1,0 +1,10 @@
+
+info:
+  id: string
+  code: string
+  titie: string
+
+info02:
+  id: string
+  code: string
+  titie: string

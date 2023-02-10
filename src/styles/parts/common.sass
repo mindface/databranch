@@ -1,0 +1,48 @@
+
+@use './_variable' as *
+
+.s-flex
+  display: flex
+
+.s-flex-c
+  display: flex
+  align-items: center
+  justify-content: center
+
+.s-dib
+  display: inline-block
+.s-db
+  display: block
+
+.box-shadow
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.16)
+
+.content
+  padding: 16px
+
+.w-100
+  width: 100%
+
+@for $index from 10 through 1
+  .p-#{$index}
+    padding: $index*8px
+  .p-t#{$index}
+    padding-top: $index*8px
+  .p-l#{$index}
+    padding-left: $index*8px
+  .p-r#{$index}
+    padding-right: $index*8px
+  .p-b#{$index}
+    padding-bottom: $index*8px
+
+  .m-#{$index}
+    margin: $index*8px
+  .m-t#{$index}
+    margin-top: $index*8px
+  .m-l#{$index}
+    margin-left: $index*8px
+  .m-r#{$index}
+    margin-right: $index*8px
+  .m-b#{$index}
+    margin-bottom: $index*8px
+

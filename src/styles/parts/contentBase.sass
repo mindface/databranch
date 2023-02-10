@@ -1,0 +1,31 @@
+
+@use './_variable' as *
+
+.content
+  padding: 16px
+  .setnumber-view
+    max-width: 100%
+    color: $color-white
+    .view-item
+      position: relative
+      &:hover
+        .info
+          display: inline-block
+      .info
+        display: none
+        position: absolute
+        top: 100%
+        left: 8px
+        padding: 8px
+        background-color: $color-white
+        color: $base-color
+  .view-contents
+    position: relative
+  .canvas-container
+    position: relative
+    z-index: 1
+  .write-canvas
+    height: 300px
+    width: 100%
+  .write-img
+    border: 1px solid $base-color

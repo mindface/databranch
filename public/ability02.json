@@ -1,0 +1,38 @@
+[
+  {
+    "id":"viewer2",
+    "dataLevel":"2",
+    "infoList":[
+      {"radar01": ""},
+      {"radar02": ""}
+    ],
+    "position": []
+  },
+  {
+    "id":"viewer3",
+    "dataLevel":"3",
+    "infoList":[
+      {"radar01": ""},
+      {"radar02": ""}
+    ],
+    "position": []
+  },
+  {
+    "id":"viewer4",
+    "dataLevel":"4",
+    "infoList":[
+      {"radar01": ""},
+      {"radar02": ""}
+    ],
+    "position": []
+  },
+  {
+    "id":"viewer5",
+    "dataLevel":"5",
+    "infoList":[
+      {"radar01": ""},
+      {"radar02": ""}
+    ],
+    "position": []
+  }
+]
